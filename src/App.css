@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.plus-btn {
+    border: 2px solid #28a745; /* Green outline */
+    border-radius: 50%; /* Circular shape */
+    color: #fff; /* White text */
+    background-color: #28a745; /* Green fill */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  }
+  
+  .plus-btn:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: #28a745; /* Green text on hover */
+  }
+
+  .minus-btn {
+    border: 2px solid #dc3545; /* Red outline */
+    border-radius: 50%; /* Circular shape */
+    color: #fff; /* White text */
+    background-color: #dc3545; /* Red fill */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  }
+  
+  .minus-btn:hover {
+    background-color: transparent; /* Transparent background on hover */
+    color: #dc3545; /* Red text on hover */
+  }
+  
